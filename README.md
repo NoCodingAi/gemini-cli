@@ -31,6 +31,8 @@ With the Gemini CLI you can:
    ```bash
    npm install -g @google/gemini-cli
    gemini
+   # Disable data collection 
+   gemini --no-telemetry --telemetry-log-prompts=false
    ```
 
 3. **Pick a color theme**
