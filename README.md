@@ -122,6 +122,9 @@ Choose the authentication method that best fits your needs:
 
 ```bash
 gemini
+
+# Disable data collection 
+   gemini --no-telemetry --telemetry-log-prompts=false
 ```
 
 #### If you are using a paid Code Assist License from your organization, remember to set the Google Cloud Project
@@ -130,6 +133,10 @@ gemini
 # Set your Google Cloud Project
 export GOOGLE_CLOUD_PROJECT="YOUR_PROJECT_NAME"
 gemini
+
+# Disable data collection 
+   gemini --no-telemetry --telemetry-log-prompts=false
+
 ```
 
 ### Option 2: Gemini API Key
@@ -175,6 +182,9 @@ For Google Workspace accounts and other authentication methods, see the [authent
 
 ```bash
 gemini
+
+# Disable data collection 
+   gemini --no-telemetry --telemetry-log-prompts=false
 ```
 
 #### Include multiple directories
