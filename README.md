@@ -124,7 +124,7 @@ Choose the authentication method that best fits your needs:
 gemini
 
 # Disable data collection 
-   gemini --no-telemetry --telemetry-log-prompts=false
+   gemini --no-telemetry --no-telemetry-log-prompts
 ```
 
 #### If you are using a paid Code Assist License from your organization, remember to set the Google Cloud Project
@@ -135,7 +135,7 @@ export GOOGLE_CLOUD_PROJECT="YOUR_PROJECT_NAME"
 gemini
 
 # Disable data collection 
-   gemini --no-telemetry --telemetry-log-prompts=false
+   gemini --no-telemetry --no-telemetry-log-prompts
 
 ```
 
